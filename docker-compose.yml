@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  jupyter-tslab:
+    build: .
+    # environment:
+    #   JUPYTER_ENABLE_LAB: "YES"
+    ports:
+      - "10000:8888"
